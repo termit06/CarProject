@@ -58,7 +58,7 @@ namespace UnityEngine.Rendering
         /// <summary>Wraps [RequestAsyncReadbackIntoNativeArray](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html) on a CommandBuffer.</summary>
         /// <param name="output">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
         /// <param name="src">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
-        /// <param name="size">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
+        /// <param name="siz">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
         /// <param name="offset">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
         /// <param name="callback">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</param>
         /// <typeparam name="T">[See CommandBuffer documentation](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.RequestAsyncReadbackIntoNativeArray.html)</typeparam>
