@@ -43,4 +43,17 @@ public class CarController : MonoBehaviour
             mesh.transform.Rotate(rb.linearVelocity.magnitude * (transform.InverseTransformDirection(rb.linearVelocity).z >= 0 ? 1 : -1) / (2 * 0.33f), 0f, 0f);
         }
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Cube"))
+        {
+            HandleCollision();
+        }
+    }
+    void HandleCollision()
+    {
+        Rigidbody rb = GetComponent<Rigidbody>();
+        Vector3 backwardOffset = transform.TransformDirection(Vector3.back) * 2f;
+        rb.MovePosition(rb.position + backwardOffset);
+    }
 }
